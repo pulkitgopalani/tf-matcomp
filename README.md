@@ -1,5 +1,5 @@
 # tf-matcomp
-Code for "Abrupt Learning in Transformers: A Case Study on Matrix Completion" (NeurIPS 2024). [arXiv link](https://arxiv.org/abs/)
+Code for "Abrupt Learning in Transformers: A Case Study on Matrix Completion" (NeurIPS 2024). [arXiv link](https://arxiv.org/abs/2410.22244)
 
 Requirements can be found in the `env.yaml` file generated from the conda environment used for experiments. All experiments in this repository were done on a single (L40S / A100 / V100 / A40) GPU. 
 
