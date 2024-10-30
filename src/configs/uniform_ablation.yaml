@@ -1,0 +1,27 @@
+
+model:
+    num_hidden_layers: 4
+    num_attention_heads: 8
+    intermediate_size: 3072
+    hidden_size: 768
+    position_embedding_type: "absolute"
+    hidden_dropout_prob: 0.0
+    attention_probs_dropout_prob: 0.0
+    output_hidden_states: False
+    use_cache: False
+
+data:
+    domain: "real"
+    m: 7
+    n: 7
+    min_val: -1.0
+    max_val: 1.0
+    min_vocab: -10
+    max_vocab: 10
+    rank: 2
+    prec: 2
+    p_mask: 0.3
+
+train:
+    epoch: 49999
+    num_eval: 256
