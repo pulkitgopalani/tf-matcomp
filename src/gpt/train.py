@@ -159,7 +159,7 @@ if __name__ == "__main__":
 
     if config.train.wandb:
         wandb_run_name = ckpt_dir
-        wandb.login(key="d987effddad64502678db0f39e0bac5b848b7b96")
+        wandb.login(key="")
         wandb.init(project="tf-emergence", name=wandb_run_name, config=config)
         wandb.watch(model)
 
